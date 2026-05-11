@@ -1,3 +1,22 @@
 # The purpose of this application is to add tasks with a description of what the task is and they can also manage all their tasks my the list command. Users can delete tasks that they have copmleted and also mark them as copmlete.
 # the program supports add which adds a new task, list which displays all tasks, complete which marks a task complete, delete which removes a task, and then exit which exits the program.
 # The program most likely stores the data in a txt file and it is read and updated after every command is entered.
+
+# Reflection:
+# 1: The hardest part of understanding this project was keeping track of the data and how they were loaded into the main function that runs the entire program. For example, we had to make a count() method but that in itself was not difficult,
+# it the fact that we had to update other parts of the code as well. Because of that we had to update the main frame and the list method. Another difficult part of this was simply understanding the code and making sure I actually knew what each part
+# was doing and how it was being implemented. Without understanding the code, it is difficult to navigate this task application.
+
+# 2: The change that was easiest to make was the first one we did. It was simply changing an output message. We changed one single word. The initial message was "Task addded successfully" and then we had to change it to "Task saved successfully". This
+# was straightforward because it did not involve changing multiple areas of the program. It was also easy to test because all I had to do was add a task and if the print message was there, I knew it had worked.
+
+# 3: The change that required the most testing and debugging was adding the priority field. We had to add an input string to ask the users what priority it was and then we had to add to the f string in the method that lists tasks what priority it was.
+# There could have been a lot of mistakes and debugging actions that could have taken place but it worked when I had tested it. Testing to make sure the priority field had been implemented succesfully involved making sure the default priority 'medium' was
+# applied correctly.
+
+# 4: GitHub helped manage my work by forking the original repository. This action allowed me to have my own copy of the work and make changes to it without making any changes to the original project. I was also able to work in VS Code which was helpful
+# because I could test my changes and updates immediately. Working with GitHub also allowed me to save and commit any changes I made to the files I had posted to the repository.
+
+# 5: If I had more time, something I would improve is the functionality. I do think it works nicely already, but I think it could be much better and that this is a basic application in the way it operates. For example, i could implement sorting tasks by priority
+# which would be helpful to users because it would allow them to easily see how many high priority tasks they have and should complete first. I think color coding tasks or highlighting key words would be a cool additon to this application. It would again help users
+# easily identify tasks that need to be completed immediately. These improvements would make this application more user-friendly and practical for users.
