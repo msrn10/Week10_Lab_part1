@@ -1,0 +1,3 @@
+# The purpose of this application is to add tasks with a description of what the task is and they can also manage all their tasks my the list command. Users can delete tasks that they have copmleted and also mark them as copmlete.
+# the program supports add which adds a new task, list which displays all tasks, complete which marks a task complete, delete which removes a task, and then exit which exits the program.
+# The program most likely stores the data in a txt file and it is read and updated after every command is entered.
